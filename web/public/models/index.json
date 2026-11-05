@@ -1,0 +1,33 @@
+{
+  "models": [
+    {
+      "folder": "sample_poses",
+      "name": "sample_poses",
+      "mode": "pose",
+      "model_type": "neural_net",
+      "classes": [
+        "fist",
+        "open_palm",
+        "peace",
+        "point",
+        "thumbs_up"
+      ],
+      "test_accuracy": 0.9125,
+      "created": "2026-11-05T07:38:54"
+    },
+    {
+      "folder": "sample_motions",
+      "name": "sample_motions",
+      "mode": "motion",
+      "model_type": "neural_net",
+      "classes": [
+        "idle",
+        "swipe_left",
+        "swipe_right",
+        "swipe_up"
+      ],
+      "test_accuracy": 1.0,
+      "created": "2026-11-05T07:32:21"
+    }
+  ]
+}

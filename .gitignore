@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+training/exports/
+
+# Node / web
+node_modules/
+web/dist/
+web/public/mediapipe/wasm/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/

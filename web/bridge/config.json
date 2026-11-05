@@ -1,0 +1,10 @@
+{
+  "websocketPort": 8787,
+  "oscTargets": [
+    { "name": "TouchDesigner", "host": "127.0.0.1", "port": 10000, "enabled": true },
+    { "name": "Unreal", "host": "127.0.0.1", "port": 8000, "enabled": true }
+  ],
+  "physicalBridge": {
+    "forwardUrl": null
+  }
+}

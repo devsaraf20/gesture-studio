@@ -1,0 +1,27 @@
+{
+  "name": "sample_poses",
+  "created": "2026-11-05T07:38:54",
+  "model_type": "neural_net",
+  "mode": "pose",
+  "classes": [
+    "fist",
+    "open_palm",
+    "peace",
+    "point",
+    "thumbs_up"
+  ],
+  "input_size": 63,
+  "seq_len": 1,
+  "frame_features": 63,
+  "window_ms": null,
+  "test_accuracy": 0.9125,
+  "feature_version": 1,
+  "mirror_left_hands": true,
+  "files": {
+    "tfjs": [
+      "model.json",
+      "weights.bin"
+    ],
+    "onnx": "model.onnx"
+  }
+}
