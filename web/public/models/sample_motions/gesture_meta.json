@@ -1,0 +1,26 @@
+{
+  "name": "sample_motions",
+  "created": "2026-11-05T07:32:21",
+  "model_type": "neural_net",
+  "mode": "motion",
+  "classes": [
+    "idle",
+    "swipe_left",
+    "swipe_right",
+    "swipe_up"
+  ],
+  "input_size": 1056,
+  "seq_len": 16,
+  "frame_features": 66,
+  "window_ms": 812.5,
+  "test_accuracy": 1.0,
+  "feature_version": 1,
+  "mirror_left_hands": true,
+  "files": {
+    "tfjs": [
+      "model.json",
+      "weights.bin"
+    ],
+    "onnx": "model.onnx"
+  }
+}

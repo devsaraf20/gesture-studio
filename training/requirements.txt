@@ -1,0 +1,12 @@
+# Gesture Studio training - install with:  pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+torch>=2.3          # the neural network (CPU is plenty for these small models)
+onnx>=1.16          # ONNX export
+onnxscript>=0.1     # needed by newer PyTorch versions for ONNX export
+skl2onnx>=1.17      # random forest -> ONNX
+joblib>=1.3
+# Only needed for the notebook:
+jupyter>=1.0
